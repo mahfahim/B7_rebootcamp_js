@@ -42,6 +42,11 @@ const user = {
 
 // const sum = numbers.reduce((acc, curr)=> acc*curr,10);
 
+const result = array.reduce((accumulator, currentValue, currentIndex, array) => {
+    // এখানে তোমার logic লিখো
+    return accumulator; // updated value
+}, initialValue);
+
 // console.log(sum)
 
 /* 
